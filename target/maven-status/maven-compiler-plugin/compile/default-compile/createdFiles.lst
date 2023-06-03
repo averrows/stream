@@ -1,0 +1,4 @@
+com/videostream/DatabaseClient/IDatabaseClient.class
+com/videostream/Models/Video.class
+com/videostream/StreamService.class
+com/videostream/DatabaseClient/MongoDBClient.class
