@@ -2,6 +2,7 @@ package com.videostream;
 
 import com.videostream.DatabaseClient.IDatabaseClient;
 import com.videostream.DatabaseClient.MongoDBClient;
+import com.videostream.Handlers.StreamHandler;
 import com.videostream.Handlers.VideoHandler;
 import com.videostream.Models.Video;
 import io.vertx.core.AbstractVerticle;
@@ -20,6 +21,7 @@ public class StreamService extends AbstractVerticle {
     public void start() {
         Router router = Router.router(vertx);
         router.get("/video/:id").handler(ctx -> VideoHandler.handle(ctx, vertx));
+        router.post("/stream").handler(ctx -> StreamHandler.handle(ctx, vertx));
         vertx.createHttpServer().requestHandler(router::accept).listen(8080);
     }
 
