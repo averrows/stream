@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d27d120a-85ab-493c-8d37-c06bb6b0615b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/videostream/Handlers/StreamHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/technical.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/videostream/StreamService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/videostream/StreamService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/videostream/Handlers/StreamHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/videostream/Handlers/StreamHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,6 +215,7 @@
       <workItem from="1685802025840" duration="603000" />
       <workItem from="1685888945058" duration="2537000" />
       <workItem from="1685972948528" duration="1496000" />
+      <workItem from="1686146416952" duration="1554000" />
     </task>
     <servers />
   </component>
